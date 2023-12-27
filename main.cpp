@@ -1,17 +1,20 @@
-// my first pointer
+// more pointers
 #include <iostream>
 using namespace std;
 
 int main()
 {
-	int firstvalue, secondvalue;
-	int* mypointer;
+	int firstvalue = 5, secondvalue = 15;
+	int* p1, * p2;
 
-	mypointer = &firstvalue; // mypointer assigned address of firstvalue using address-of operator &
-	*mypointer = 10; // value pointed to by mypointer is assigned value of 10
-	mypointer = &secondvalue; // pointer may point to different variables: repeat previous 2 line process
-	*mypointer = 20;
-	cout << "firstvalue is " << firstvalue << '\n';
-	cout << "secondvalue is " << secondvalue << '\n';
+	p1 = &firstvalue;  // p1 = address of firstvalue
+	p2 = &secondvalue; // p2 = address of secondvalue
+	*p1 = 10;          // value pointed to by p1 = 10
+	*p2 = *p1;         // value pointed to by p2 = value pointed to by p1
+	p1 = p2;           // p1 = p2 (value of pointer is copied)
+	*p1 = 20;          // value pointed to by p1 = 20
+
+	cout << "firstvalue is " << firstvalue << '\n'; // firstvalue is 10
+	cout << "secondvalue is " << secondvalue << '\n'; // secondvalue is 20
 	return 0;
 }
