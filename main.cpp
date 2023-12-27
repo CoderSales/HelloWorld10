@@ -2,6 +2,16 @@
 #include <iostream>
 using namespace std;
 
+// Notice that there are expressions with pointers p1 and p2, 
+// both with and without the dereference operator (*). 
+// The meaning of an expression using the dereference operator (*) 
+// is very different from one that does not. 
+// When this operator precedes the pointer name, 
+// the expression refers to the value being pointed, 
+// while when a pointer name appears without this operator, 
+// it refers to the value of the pointer itself 
+// (i.e., the address of what the pointer is pointing to).
+
 int main()
 {
 	int firstvalue = 5, secondvalue = 15;
