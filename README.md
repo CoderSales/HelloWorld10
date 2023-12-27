@@ -30,3 +30,17 @@
 [web.archive | Microsoft | INFO: Which Visual C++ Files to Add to Source-Code Control](https://web.archive.org/web/20130804232552/http://support.microsoft.com/kb/156513)
 
 [Which Visual C++ file types should be committed to version control?](https://stackoverflow.com/questions/3922660/which-visual-c-file-types-should-be-committed-to-version-control)
+
+[.gitignore for visual studio project is not working | StackOverflow](https://stackoverflow.com/questions/51077976/gitignore-for-visual-studio-project-is-not-working)
+
+[Learn about Solution Explorer](https://learn.microsoft.com/en-us/visualstudio/ide/use-solution-explorer?view=vs-2022&preserve-view=true)
+
+[Tutorial: Open a project from a repo](https://learn.microsoft.com/en-us/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2022#view-files-in-solution-explorer)
+
+[How Visual Studio makes version control easy with Git](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=vs-2022)
+
+[Thank you for downloading Visual Studio](docs/getting-started/installing-github-for-visual-studio.md)
+
+initial result: [docs/getting-started/installing-github-for-visual-studio.md | GitHub](https://github.com/github/VisualStudio/blob/master/docs/getting-started/installing-github-for-visual-studio.md)
+
+initial search: [how to github in visual studio](https://www.google.com/search?q=how+to+github+in+visual+studio&rlz=1C1YTUH_enIE1084IE1084&oq=how+to+github+in+visual+studio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDY5MzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
