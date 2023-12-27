@@ -1,13 +1,15 @@
-// void function example
+// custom countdown using while
 #include <iostream>
 using namespace std;
 
-void printmessage()
-{
-	cout << "I'm a function!";
-}
-
 int main()
 {
-	printmessage();
+    int n = 10;
+
+    while (n > 0) {
+        cout << n << ", ";
+        --n;
+    }
+
+    cout << "liftoff!\n";
 }
