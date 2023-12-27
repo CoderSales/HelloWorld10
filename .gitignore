@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+
+# custom
+*.user
+/.vs
+/**/bin
+/**/lib
+/**/obj
+*.vc*
+*.sln
+x64
+x64/*
