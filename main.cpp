@@ -1,17 +1,19 @@
-// arrays as parameters
+// strings and NTCS:
 #include <iostream>
+#include <string>
 using namespace std;
-
-void printarray(int arg[], int length) {
-    for (int n = 0; n < length; ++n)
-        cout << arg[n] << ' ';
-    cout << '\n';
-}
 
 int main()
 {
-    int firstarray[] = { 5, 10, 15 };
-    int secondarray[] = { 2, 4, 6, 8, 10 };
-    printarray(firstarray, 3);
-    printarray(secondarray, 5);
+	char question1[] = "What is your name? ";
+	string question2 = "Where do you live? ";
+	char answer1[80];
+	string answer2;
+	cout << question1;
+	cin >> answer1;
+	cout << question2;
+	cin >> answer2;
+	cout << "Hello, " << answer1;
+	cout << " from " << answer2 << "!\n";
+	return 0;
 }
