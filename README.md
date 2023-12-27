@@ -44,3 +44,9 @@
 initial result: [docs/getting-started/installing-github-for-visual-studio.md | GitHub](https://github.com/github/VisualStudio/blob/master/docs/getting-started/installing-github-for-visual-studio.md)
 
 initial search: [how to github in visual studio](https://www.google.com/search?q=how+to+github+in+visual+studio&rlz=1C1YTUH_enIE1084IE1084&oq=how+to+github+in+visual+studio&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDY5MzhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
+
+### pointers
+
+[1.3 Initializing Pointers via the Address-Of Operator (&)](https://home.csulb.edu/~pnguyen/cecs282/lecnotes/Pointer.pdf)
+
+[Address-of operator (&)](https://cplusplus.com/doc/tutorial/pointers/)
