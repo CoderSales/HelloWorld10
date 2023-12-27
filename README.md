@@ -47,6 +47,8 @@ initial search: [how to github in visual studio](https://www.google.com/search?q
 
 ### pointers
 
+Search: [C++ int myvar type of address of pointer variable declaration](https://www.bing.com/search?q=C%2B%2B+int+myvar+type+of+address+of+pointer+variable+declaration&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=c%2B%2B+int+myvar+type+of+address+of+pointer+variable+declaration&sc=4-61&sk=&cvid=924A7551CF2641B0917AE553A6A68C75&ghsh=0&ghacc=0&ghpl=)
+
 [1.3 Initializing Pointers via the Address-Of Operator (&)](https://home.csulb.edu/~pnguyen/cecs282/lecnotes/Pointer.pdf)
 
 [Address-of operator (&)](https://cplusplus.com/doc/tutorial/pointers/)
