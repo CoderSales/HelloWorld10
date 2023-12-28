@@ -1,17 +1,41 @@
-// more pointers
+// pointers to base class
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int numbers[5];
-    int* p;
-    p = numbers;  *p = 10;
-    p++;  *p = 20;
-    p = &numbers[2];  *p = 30;
-    p = numbers + 3;  *p = 40;
-    p = numbers;  *(p + 4) = 50;
-    for (int n = 0; n < 5; n++)
-        cout << numbers[n] << ", "; // 10, 20, 30, 40, 50,
+class Polygon {
+protected:
+    int width, height;
+public:
+    void set_values(int a, int b)
+    {
+        width = a; height = b;
+    }
+};
+
+class Rectangle : public Polygon {
+public:
+    int area()
+    {
+        return width * height;
+    }
+};
+
+class Triangle : public Polygon {
+public:
+    int area()
+    {
+        return width * height / 2;
+    }
+};
+
+int main() {
+    Rectangle rect;
+    Triangle trgl;
+    Polygon* ppoly1 = &rect;
+    Polygon* ppoly2 = &trgl;
+    ppoly1->set_values(4, 5);
+    ppoly2->set_values(4, 5);
+    cout << rect.area() << '\n';
+    cout << trgl.area() << '\n';
     return 0;
 }
